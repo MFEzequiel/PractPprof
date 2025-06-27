@@ -1,0 +1,8 @@
+:root[data-theme='light'] {
+  --color: black;
+  --background-color: #f1f1f1;
+  --header: hsl(167, 93%, 84%);
+  --top: hsl(167, 93%, 84%);
+  --link: #004dc0;
+  --ht: hsla(169, 43%, 65%, 0.4);
+}

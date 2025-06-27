@@ -1,0 +1,11 @@
+.line-active:first-child {
+  transform: rotate(45deg);
+}
+
+.line-active:nth-child(2) {
+  opacity: 0;
+}
+
+.line-active:last-child {
+  transform: rotate(-45deg);
+}

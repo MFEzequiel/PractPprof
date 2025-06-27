@@ -1,0 +1,9 @@
+:root[data-theme='dark'] {
+  --color: white;
+  --background-color: hsl(0, 0%, 5%);
+  --header: hsl(0, 0%, 4%);
+  --top: red;
+  --link: #5a91e4;
+  --ht: rgba(0, 0, 0, 0.363);
+  transition: .5s;
+}

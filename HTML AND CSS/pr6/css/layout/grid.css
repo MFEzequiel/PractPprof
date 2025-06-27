@@ -1,0 +1,78 @@
+.root{
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 10px 50px;
+  gap: 30px;
+}
+
+.main {
+  width: 100%;
+  margin: 0px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.main-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hero-animated {
+  display: block;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 10.5ch;
+  animation: typing 2s steps(12), blink .5s infinite step-end alternate;
+  animation-delay: 1s;
+  overflow: hidden;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.container-image {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 10px;
+}
+
+.svg-image {
+  width: 50px;
+}
+
+.info-aditional {
+  flex: 0 0 25;
+  width: 25%;
+  margin: 0px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media only screen and (max-width:980px) {
+  .root {
+    flex-direction: column;
+    margin: 10px;
+  }
+  .main {
+    margin: 0px;
+    padding: 0px 10px;
+  }
+  .info-aditional {
+    width: 100%;
+  }
+}
