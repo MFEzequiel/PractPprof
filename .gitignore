@@ -1,0 +1,21 @@
+# images
+.png
+.gif
+.jpg
+# folders and files
+__pycache__
+folder_db
+.vscode
+vscode
+dist
+build
+localpycs
+.exe
+.env
+.spec
+.pytest_cache
+pytest_cache
+backups
+v
+# data base
+.db

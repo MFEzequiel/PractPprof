@@ -8,13 +8,14 @@ const cont = $('.header-container')
 const nav = $('.header-nav')
 const btL = $$('.button-line')
 const html = d.documentElement
-let theme = window.matchMedia('(prefers-color-scheme:dark)') ? 'dark' : 'light'
+let theme = window.matchMedia('(pref                                                                                     ers-color-scheme:dark)') ? 'dark' : 'light'
 btTh.textContent = `Tema: ${theme}`
 
 btH.addEventListener('click', () => {
   btL.forEach(el => {
     el.classList.toggle('line-active')
   })
+  
   nav.classList.toggle('header-nav-active')
   cont.classList.toggle('header-container-active')
 })
